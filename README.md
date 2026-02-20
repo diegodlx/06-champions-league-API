@@ -106,8 +106,11 @@ http://localhost:3000
 
 ```json
 {
-  "id": 3,
-  "name": "Kylian Mbappe"
+  "id": 11,
+  "name": "Antoine Griezmann",
+  club: "Atlético Madrid",
+  nationality: "France",
+  position: "Forward"
 }
 ```
 
@@ -119,8 +122,11 @@ http://localhost:3000
 
 ```json
 {
-  "id": 3,
-  "name": "Updated Name"
+  "id": 11,
+  "name": "Antoine Griezmann",
+  club: "Atlético Madrid",
+  nationality: "France",
+  position: "Forward"
 }
 ```
 
@@ -134,42 +140,6 @@ http://localhost:3000
 
 - `GET /api/clubs`
   - Returns all clubs from `src/data/clubs-data.json`.
-
-## Example cURL requests
-
-Get all players:
-
-```bash
-curl http://localhost:3000/api/players
-```
-
-Create a player:
-
-```bash
-curl -X POST http://localhost:3000/api/players \
-  -H "Content-Type: application/json" \
-  -d '{"id":3,"name":"Kylian Mbappe"}'
-```
-
-Update a player:
-
-```bash
-curl -X PATCH http://localhost:3000/api/players/3 \
-  -H "Content-Type: application/json" \
-  -d '{"id":3,"name":"Erling Haaland"}'
-```
-
-Delete a player:
-
-```bash
-curl -X DELETE http://localhost:3000/api/players/3
-```
-
-Get all clubs:
-
-```bash
-curl http://localhost:3000/api/clubs
-```
 
 ## Notes
 
