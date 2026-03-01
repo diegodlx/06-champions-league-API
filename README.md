@@ -13,6 +13,8 @@ A simple REST API built with Node.js, Express, and TypeScript for managing Champ
 - Node.js
 - Express 5
 - TypeScript
+- REST API
+- GitHub
 - tsx (development runtime)
 - tsup (build)
 
